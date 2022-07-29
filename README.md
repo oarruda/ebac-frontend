@@ -31,5 +31,17 @@
  - git add *
  - git commit -m 'mensagem'
  - git push (enviar alterações para o repositório)
+ - git pull (puxar / trazer alterações do GitHub para sua máquina)
  ## GitFlow
  Fluxo do Git
+
+ ### Branchs
+ São ramificações / versões do código que podem ocorrer em versões paralelas
+
+ - main / master (vai para a produção, quando o projeto é publicado)
+ - develop (branch de teste para não afetar a main / master)
+ - DOD (Definition of Done: critérios de aceite)
+ - versionamento 1.0.0
+
+ ### Merge
+ Mesca de branchs
