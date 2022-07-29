@@ -43,5 +43,8 @@
  - DOD (Definition of Done: critérios de aceite)
  - versionamento 1.0.0
 
+ git checkout -b dev (cria um branch)
+ git checkout master (mudar de branch)
+
  ### Merge
  Mesca de branchs
