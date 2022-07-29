@@ -1,63 +1,66 @@
 # Curso Front-end
-###EBAC
+#### EBAC
 
 # GIT
-##Conceitos de versionamento
-  - Histórico
-  - Controle de versão
-  - Quem alterou
-  - O quê alterou
-  - Todos os arquivos
-  - Evolução contínua
-  
- Arquivo A | Versão 1 | Versão 2
- Arquivo B | Versão 1 | Versão 2
- 
- ## Instalação do GIT
- https://git-scm.com/
- 
- - Windows: https://git-scm.com/download/win
- - Linux (apt-get): sudo apt-get install git
- - Mac (brew): brew install git
- 
- ## Criar conta no Github
- 
+## Conceitos de versionamento
+ - Histórico
+ - Controle de versão
+ - Quem alterou
+ - O quê alterou
+ - Quando alterou
+ - Todos os arquivos
+ - Evolução contínua
+
+ Arquivo A  | Versão 1 | Versão 2
+ Arquivo B  | Versão 1 | Versão 2
+
+ ## Instalação do Git
+https://git-scm.com/
+
+- Windows: https://git-scm.com/download/win
+- Linux (apt-get): sudo apt-get install git
+- Mac (brew): brew install git
+
+ ## Criar conta no GitHub
+
  ## Clonar o projeto
- git clone https://github.com/oarruda/ebac-frontend.git
- 
+ git clone https://github.com/cavalcantemmarcelo/curso-frontend.git
+
  ## Commits
  Informação de alteração
- - após testado todo o seu código
- - git add *
- - git commit -m 'mensagem'
- - git push (enviar alterações para o repositório)
- - git pull (puxar / trazer alterações do GitHub para sua máquina)
- ## GitFlow
- Fluxo do Git
+ - após testado todo seu código
+ > git add *
+ > git commit -m "mensagem"
+ > git push (enviar alterações para o repositório GitHub)
+ > git pull (puxar / trazer alterações do GitHub para sua máquina)
 
- ### Branchs
- São ramificações / versões do código que podem ocorrer em versões paralelas
+## GitFlow
+Fluxo do Git
 
- - main / master (vai para a produção, quando o projeto é publicado)
- - develop (branch de teste para não afetar a main / master)
- - DOD (Definition of Done: critérios de aceite)
- - versionamento 1.0.0
+### Branchs
+são ramificações / versões paralelas
 
- git checkout -b dev (cria um branch)
- git checkout master (mudar de branch)
+- main / master (vai para produção, quando o projeto é publicado)
+- develop 
+- DOD Definition of Done: critérios de aceite
+- versionamento 1.0.0
 
- ### Merge
- Mescla de branchs
- Você pode precisar resolver conflitos manualmente
+> git checkout -b dev (cria uma branch)
+> git checkout master (mudar de branch)
 
- git merge main
 
- ### Pull Requests
- Mescla de branchs no repositório
- Permite code review
- O repositório resolve os conflitos automaticamente
+### Merge
+Mescla de branchs
+Você pode precisar resolver conflitos manualmente
 
- ### Configurar o GitFlow
- git flow init
- git flow feature start {nome-da-feature}
- git flow finish feature
+> git merge main 
+
+### Pull Requests
+Mescla de branchs no repositório
+Permite code review
+O respositório resolve os conflitos automaticamente
+
+
+### configura o GitFlow
+> git flow init
+> git flow feature start {nome-da-feature}
