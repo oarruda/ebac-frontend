@@ -33,3 +33,6 @@
  - git push (enviar alterações para o repositório)
  ## GitFlow
  Fluxo do Git
+
+ ###Branchs
+ São ramificações
