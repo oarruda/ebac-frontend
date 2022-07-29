@@ -60,4 +60,4 @@
  ### Configurar o GitFlow
  git flow init
  git flow feature start {nome-da-feature}
- 
+ git flow finish feature
