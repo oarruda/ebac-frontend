@@ -47,4 +47,4 @@
  git checkout master (mudar de branch)
 
  ### Merge
- Mesca de branchs
+ Mescla de branchs
