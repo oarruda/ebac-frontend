@@ -1,0 +1,302 @@
+/* 
+	Arquivo CSS de Tabelas 
+*/
+@import url(../css/tabelas.css);
+
+/* 
+	Arquivo CSS para página renovada 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../_img/pattern.jpg) center top repeat #000;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  width: 100%;
+  background-color: #003258;
+  padding: 25px;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+header p {
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+header h3 {
+  color: #ffd800;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+nav {
+  background-color: #263a49;
+  float: left;
+  width: 25%;
+  padding: 25px;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+  width: 100%;
+}
+
+nav h3 {
+  color: #ffd800;
+  list-style-type: none;
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+a.active {
+  color: #ffd800;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  color: #ffd800;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+article {
+  float: left;
+  font-size: 0.9rem;
+  padding: 25px;
+  width: 75%;
+}
+
+article div {
+  float: left;
+  padding: 10px 0px 0px 20px;
+  width: 75%;
+}
+
+article h1 {
+  font-size: 2em;
+  color: #263a49;
+  font-weight: 900;
+}
+
+article h2 {
+  font-size: 2em;
+  color: #700400;
+  font-weight: 900;
+  padding: 10px 0 10px 0;
+}
+
+article p {
+  color: #000;
+  line-height: 2;
+  font-size: 1.2em;
+}
+
+article ul {
+  color: #000;
+  padding: 20px;
+  width: 100%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  font-size: 0.8em;
+  padding: 10px;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+}
+
+.navegacao {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+}
+
+.navegacao li:hover {
+  background-color: rgba(150, 150, 200, 0.2);
+}
+
+#avatar01 {
+  float: left;
+  background-color: #263a49;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 20%;
+  padding: 0px;
+}
+
+#avatar01 img {
+  width: 100%;
+  height: 100%;
+}
+
+#triangulo {
+  padding: 0px 25px 0px 0px;
+  background: transparent;
+  border-style: solid;
+  border-width: 10px 0 10px 20px;
+  border-color: transparent transparent transparent #b90000;
+  width: 30px;
+}
+
+/* CSS Para Tablet */
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    height: auto;
+  }
+
+  article {
+    width: 100%;
+    height: auto;
+  }
+
+  article img {
+    width: 100%;
+    height: auto;
+  }
+
+  article div {
+    color: #000;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* CSS Para Smartphone */
+
+@media (max-width: 425px) {
+  nav {
+    width: 100%;
+    height: auto;
+  }
+
+  article {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  article img {
+    width: 100%;
+    height: auto;
+  }
+
+  article div {
+    color: #000;
+    padding: 25px;
+    width: 100%;
+    height: auto;
+  }
+  
+  article h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #700400;
+    font-weight: 900;
+    padding-bottom: 10px;
+  }
+
+  #avatar01 {
+    float: left;
+    background-color: #263a49;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 20% 20% 20% 0;
+    padding: 0px;
+    margin-left: 80px;
+  }
+
+form label {
+  padding: 1rem;
+}
+
+}
+  @media (max-width: 320px) {
+    nav {
+      width: 100%;
+      height: auto;
+    }
+  
+    article {
+      width: 100%;
+      height: auto;
+    }
+  
+    article img {
+      width: 100%;
+      height: auto;
+    }
+  
+    article div {
+      color: #000;
+      padding: 10px;
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+    
+    article h2 {
+      font-size: 1.8em;
+      text-align: center;
+      color: #700400;
+      font-weight: 900;
+      padding-bottom: 10px;
+    }
+
+    #avatar01 {
+      float: left;
+      background-color: #263a49;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 50%;
+      padding: 0px;
+      margin-left: 30px;
+    }
+}

@@ -22,6 +22,7 @@
  ## Criar conta no Github
  
  ## Clonar o projeto
+ git clone https://github.com/oarruda/ebac-frontend.git
  
  ## Commits
  Informação de alteração
