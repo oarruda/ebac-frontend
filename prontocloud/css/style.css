@@ -167,4 +167,19 @@ footer small {
 
 #tenho-interesse form, .cog-form__container {
     background-color: #254159 !important;
+    
+}
+
+@media (max-width: 435px) {
+
+    section nav,
+    section article {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
 }
