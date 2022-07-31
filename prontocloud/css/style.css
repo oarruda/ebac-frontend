@@ -29,19 +29,19 @@ header {
 }
 
 h1 {
-    font-size: 2.4rem;
-    color: #254159;
-    margin-bottom: 20px;
-}
-
-h2 { 
     font-size: 2rem;
     color: #254159;
     margin-bottom: 20px;
 }
 
+h2 { 
+    font-size: 1.6rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #254159;
     margin-bottom: 20px;
     padding-top: 10px;
@@ -55,8 +55,9 @@ h4 {
 }
 
 p {
+    font-size: 1.3rem;
     margin-bottom: 10px;
-    line-height: 1.4rem;
+    line-height: 2rem;
     color: #333;
 }
 
@@ -68,6 +69,7 @@ ol li {
     font-size: 1.4rem;
     color: #959595;
 }
+
 
 section {
  background-color: #fff;
@@ -85,6 +87,7 @@ section nav {
 }
 
 nav li {
+    font-size: 1.3rem;
     background-color: #efefef;
     margin: 1px 20px 1px 0;
     padding: 10px;
@@ -109,6 +112,13 @@ section article {
     width: 70%;
 }
 
+article li {
+    font-size: 1.2rem;
+    color: green;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
 footer {
     background-color: #254159;
     display: block;
@@ -120,9 +130,10 @@ footer {
 footer p {
     color: #fff;
     font-size: 1.4rem;
+    text-align: center;
 }
 
 footer small {
-    font-size: 80%;
+    font-size: 70%;
     display: block;
 }
