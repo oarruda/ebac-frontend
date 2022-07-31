@@ -17,6 +17,7 @@ body {
     padding: 20px;
     width: 100%;
     margin: 0 auto;
+    max-width: 1198px;
 }
 
 header {
@@ -59,6 +60,11 @@ p {
     margin-bottom: 10px;
     line-height: 2rem;
     color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 ol {
@@ -136,4 +142,29 @@ footer p {
 footer small {
     font-size: 70%;
     display: block;
+}
+
+.cognito {
+    height: 400px !important;
+    overflow: hidden !important;
+}
+
+#tenho-interesse {
+    background-color: #254159;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#tenho-interesse h1 {
+    color: #fff;
+    text-align: center;
+}
+
+#tenho-interesse p {
+    color: #fff;
+    text-align: center;
+}
+
+#tenho-interesse form, .cog-form__container {
+    background-color: #254159 !important;
 }
